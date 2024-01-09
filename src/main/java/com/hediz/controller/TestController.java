@@ -19,7 +19,7 @@ import io.swagger.annotations.ApiOperation;
 @RestController // @Controller + @ResponseBody
 public class TestController {
 
-	@ApiOperation(value = "홍길동 응답")
+	@ApiOperation(value = "권동혁 응답")
 	@GetMapping("/main6")
 	public ResponseEntity<LoginDTO> home6() {
 		
